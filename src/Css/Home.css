@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+body {
+    min-width: 700px;
+}
+
+.name {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0.1em;
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+    padding-left: 29.4%;
+    padding-right: 20%;
+    text-align: left;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.post-container {
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
+    padding-left: 30%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.fc {
+    width: 14%;
+    height: 14%;
+    float: left;
+    padding-left: 22%;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 10%;
+}
+
+.intro {
+    background-color: black;
+    background: black;
+    color: white;
+    text-align: left;
+    opacity: 0.9;
+    font-size: 1.1em;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.extra {
+    height: 34vh;
+    float: left;
+}
+
+.einf {
+    height: 34vh;
+}
+
+.bg {
+    background: linear-Gradient(200deg, #b5fdea, #25a197, #3ff3a8, #23D5AB);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    -webkit-animation: Grad 10s ease infinite;
+    -moz-animation: Grad 10s ease infinite;
+    animation: Grad 10s ease infinite;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.abt {
+    margin-top: 0%;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+.hX {
+    text-align: left;
+}
+
+.eul,
+.eli {
+    margin: 0;
+    padding: 0 0 0 0px;
+}
+
+.eli {
+    margin-left: 50px;
+}
+
+.eul {
+    padding-bottom: 50px;
+}
+
+.column,
+.column2 {
+    float: left;
+    margin-left: 0%;
+    text-align: left;
+}
+
+.column {
+    padding-right: 5%;
+}
+
+.column2 {
+    padding-right: 5%;
+}
+
+.column3 {
+    float: left;
+    padding-left: 6%;
+    text-align: left;
+}
+
+.ul1 {
+    margin-left: 1em;
+    counter-reset: line;
+    text-align: left;
+    padding-left: 6.5%;
+    line-height: 1.25em;
+    float: left;
+    font-size: 0.5em;
+}
+
+.ul2 {
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 1%;
+    padding-left: 0px;
+}
+
+.extras {
+    padding-left: 6%;
+    height: 34vh;
+    padding-bottom: 0px;
+    padding-top: 2%;
+}
+
+.extralo {
+    height: 34vh;
+}
+
+.ct {
+    padding-right: 6.1%;
+}
+
+.bd {
+    padding-right: 4%;
+}
+
+label {
+    padding-right: 5%;
+}
+
+.fut {
+    padding-top: 5%;
+}
+
+.lin {
+    border-bottom: black 2px solid;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+    background: #000;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.emaili {
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
+
+.icon-bars {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.icon-bar {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.intros {
+    background: black;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.insta {
+    background: hsl(44, 100%, 69%);
+    color: white;
+    margin: 2px;
+    padding: 8px;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+    margin: 2px;
+    padding: 8px;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+}
+
+.footlb {
+    margin: 0%;
+    padding: 0%;
+    padding-right: 10px;
+}
+
+.intxt {
+    color: white;
+}
+
+.txtint {
+    color: white;
+}
+
+
+/* Assigning animations here to html tags. */
+.name {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    animation-duration: 3s;
+}
+
+.post-container {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    animation-duration: 3s;
+}
+
+.icon-bar {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+}
+
+/* This is where animations start */
+
+/* Animates the background of first page */
+@-webkit-keyframes Grad {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Grad {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Grad {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* Animates the name and intro component */
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Animates the left side icons */
+@-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}

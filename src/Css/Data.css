@@ -1,0 +1,26 @@
+a.link {
+    text-decoration: none;
+    color: black;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+.head {
+    text-align: left;
+
+}
+
+.table {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
