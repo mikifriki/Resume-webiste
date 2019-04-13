@@ -19,7 +19,7 @@ export const IMAGES = [
     thumbnailWidth: 4032,
     thumbnailHeight: 3024,
     caption:
-      "An animated car advertisment logo made with Flash that was meant for a website."
+      "Tower in Kamianets-Podilskyi."
   },
   {
     src: Tower,
@@ -27,7 +27,7 @@ export const IMAGES = [
     thumbnailWidth: 900,
     thumbnailHeight: 1125,
     caption:
-      "An animated car advertisment logo made with Flash that was meant for a website."
+      "Picture taked in Tallinn old town"
   },
   {
     src: Curch,
@@ -35,7 +35,7 @@ export const IMAGES = [
     thumbnailWidth: 1024,
     thumbnailHeight: 1501,
     caption:
-      "An animated car advertisment logo made with Flash that was meant for a website."
+      "A curch tower in Kamianets-Podilskyi"
   },
   {
     src: Scholss,
@@ -43,7 +43,7 @@ export const IMAGES = [
     thumbnailWidth: 72,
     thumbnailHeight: 72,
     caption:
-      "An animated car advertisment logo made with Flash that was meant for a website."
+      "The Schloss fall manor in Keila-Joa"
   },
   {
     src: Stadium,
@@ -51,7 +51,7 @@ export const IMAGES = [
     thumbnailWidth: 4032,
     thumbnailHeight: 3024,
     caption:
-      "An animated car advertisment logo made with Flash that was meant for a website."
+      "Photo taken during a music event on Tallinn song festival grounds"
   },
   {
     src: Peng,

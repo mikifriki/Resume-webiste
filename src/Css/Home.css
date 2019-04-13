@@ -268,6 +268,10 @@ label {
     color: white;
 }
 
+.mds{
+    opacity: 0.3;
+}
+
 
 /* Assigning animations here to html tags. */
 .name {
@@ -282,12 +286,16 @@ label {
     animation-duration: 3s;
 }
 
-.icon-bar {
-    -webkit-animation-name: slideInLeft;
-    animation-name: slideInLeft;
+body{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
     animation-duration: 1s;
 }
-
+.icon-bar{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
 /* This is where animations start */
 
 /* Animates the background of first page */
@@ -362,29 +370,23 @@ label {
     }
 }
 
-/* Animates the left side icons */
-@-webkit-keyframes slideInLeft {
+/* Animates the entire body */
+@-webkit-keyframes fadeIn {
     from {
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
+      opacity: 0;
     }
-
+  
     to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+      opacity: 1;
     }
-}
-
-@keyframes slideInLeft {
+  }
+  
+  @keyframes fadeIn {
     from {
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
+      opacity: 0;
     }
-
+  
     to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
+      opacity: 1;
     }
-}
+  }

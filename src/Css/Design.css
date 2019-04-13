@@ -3,6 +3,15 @@
     padding-right: 12%;
     padding-top: 3%;
 }
+.hd{
+    text-align: left;
+}
+
+.hds{
+    text-align: left;
+    margin-left: 2em;
+}
+
 
 .ReactGridGallery {
     background: gray;

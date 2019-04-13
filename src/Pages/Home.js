@@ -13,7 +13,9 @@ import {
   faBriefcase,
   faEnvelope,
   faChalkboard,
-  faFileWord
+  faFileWord,
+  faAddressCard,
+  faGraduationCap
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cvs from "../Download/Cvs.pdf";
@@ -24,6 +26,15 @@ class Home extends Component {
       <p>
         Multimedia student and a self-learning developer through interesting
         projects.
+      </p>
+      <p className="mds">
+        <a
+          className="txtint"
+          href="https://github.com/mikifriki/Resume-webiste"
+          rel="noopener noreferrer"
+          target="_blank"
+        >Made 
+         </a>  with React and React-router...
       </p>
     </div>
   );
@@ -50,13 +61,14 @@ class Home extends Component {
       >
         photography
       </a>{" "}
-      and also during my free time I also like doing different desings/concepts
-      and tabble with which you can check out{" "}
+      and during my free time I also like doing different desings/concepts and
+      dabble with which you can check out{" "}
       <HashRouter>
         <NavLink exact to="./Designs" Component={Designs} className="txtint">
           {" "}
-          Here
+          here
         </NavLink>
+        <br />
       </HashRouter>
       <Switch>
         <Route exact path="/Designs" Component={Designs} />
@@ -88,7 +100,7 @@ class Home extends Component {
     <div className="extras">
       <div className="column">
         <h2>
-          <FontAwesomeIcon icon={faSchool} size={"xs"} /> Education
+          <FontAwesomeIcon icon={faGraduationCap} size={"xs"} /> Education
         </h2>
         <ul className="eul">
           <li className="eli">
@@ -105,6 +117,20 @@ class Home extends Component {
           <li className="eli">Jun. 2018 ECDL certificate (base module).</li>
         </ul>
       </div>
+      <div className="column2">
+        <h2>
+          <FontAwesomeIcon icon={faSchool} size={"xs"} /> Extracorricular
+          activites
+        </h2>
+        <ul className="eul">
+          <li className="eli">Game development (2016)</li>
+          <br />
+          <li className="eli">Electronics (2018)</li>
+          <br />
+          <li className="eli">IT (2018)</li>
+        </ul>
+      </div>
+
       <div className="column2">
         <h2>
           <FontAwesomeIcon icon={faLanguage} size={"xs"} /> Languages
@@ -149,12 +175,12 @@ class Home extends Component {
     <div className="extralo">
       <div className="column3">
         <h2 className="fut">
-          <FontAwesomeIcon icon={faChalkboard} /> Future ventures(self-learn
-          this year)
+          <FontAwesomeIcon icon={faChalkboard} size={"xs"} /> Future
+          ventures(self-learn this year)
         </h2>
         <ul className="eul">
           <li className="eli">
-            Learn more about Pythons OpenCV image recongnition.
+            Learn more about Python's OpenCV image recongnition.
           </li>
           <br />
           <li className="eli">Create a C# chatbot for my Discord server.</li>
@@ -167,7 +193,7 @@ class Home extends Component {
       </div>
       <div className="column3">
         <h2 className="fut">
-          <FontAwesomeIcon icon={faBriefcase} /> Work experience
+          <FontAwesomeIcon icon={faBriefcase} size={"xs"} /> Work experience
         </h2>
         <ul className="eul">
           <li className="eli">
@@ -288,7 +314,9 @@ class Home extends Component {
           <br />
         </div>
         <div className="intro">
-          <h2 className="abt">About me</h2>
+          <h2 className="abt">
+            <FontAwesomeIcon icon={faAddressCard} size={"s"} /> About me
+          </h2>
           {this.renderIntro()}
         </div>
         <div className="einf">
