@@ -148,12 +148,12 @@ h2 {
     height: 34vh;
 }
 
-.ct {
-    padding-right: 6.1%;
+.tb {
+    padding-right: 2%;
 }
 
-.bd {
-    padding-right: 4%;
+td {
+    width: 90px;
 }
 
 label {

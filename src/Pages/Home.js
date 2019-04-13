@@ -42,7 +42,12 @@ class Home extends Component {
       solving, even basic ones, and trying to find the most efficent way to
       solve a specific problem is always a nice challange. From time to time I
       like doing{" "}
-      <a className="intxt" href="https://www.instagram.com/mikbix/">
+      <a
+        className="intxt"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.instagram.com/mikbix/"
+      >
         photography
       </a>{" "}
       and also during my free time I also like doing different desings/concepts
@@ -56,32 +61,26 @@ class Home extends Component {
       <Switch>
         <Route exact path="/Designs" Component={Designs} />
       </Switch>
-      <ul className="ul2">
-        <li>
-          <span>
-            <label className="bd">Birthday: </label>
-            14.04.1998
-          </span>
-        </li>
-        <li>
-          <span>
-            <label className="ct">City:</label>
-            Viimsi
-          </span>
-        </li>
-        <li>
-          <span>
-            <label>E-mail: </label>
-            mihkel.liblikman@gmail.com
-          </span>
-        </li>
-        <li>
-          <span>
-            <label>Phone: </label>
-            +372 5040502
-          </span>
-        </li>
-      </ul>
+      <table className="ul2">
+        <tbody className="tb">
+          <tr>
+            <td className="tb">Birthday: </td>
+            <td className="bd">14.04.1998</td>
+          </tr>
+          <tr>
+            <td>City: </td>
+            <td className="bd">Viimsi</td>
+          </tr>
+          <tr>
+            <td>E-mail: </td>
+            <td className="bd">mihkel.liblikman@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Phone: </td>
+            <td className="bd">+372 5040502</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 
@@ -193,26 +192,49 @@ class Home extends Component {
         <FontAwesomeIcon icon={faEnvelope} /> mihkel.liblikman@gmail.com
       </a>
       <div className="icon-bars">
-        <a href="https://www.instagram.com/mikbix/" className="insta">
+        <a
+          href="https://www.instagram.com/mikbix/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="insta"
+        >
           <FontAwesomeIcon icon={faCameraRetro} />
         </a>
         <label className="footlb">Instagram</label>
-        <a href="https://github.com/mikifriki" className="twitter">
+        <a
+          href="https://github.com/mikifriki"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="twitter"
+        >
           <FontAwesomeIcon icon={faLaptopCode} />
         </a>
         <label className="footlb">Github</label>
-        <a href="http://facebook.com/mihkel.liblikman" className="facebook">
+        <a
+          href="http://facebook.com/mihkel.liblikman"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="facebook"
+        >
           <FontAwesomeIcon icon={faBookOpen} />
         </a>
         <label className="footlb">Facebook</label>
         <a
           href="https://www.linkedin.com/in/mihkel-liblikman-319347174/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="linkedin"
         >
           <FontAwesomeIcon icon={faBriefcase} />
         </a>
         <label className="footlb">Linkedin</label>
-        <a href={Cvs} download className="twitter">
+        <a
+          href={Cvs}
+          download
+          className="twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faFileWord} />
         </a>
         <label className="footlb">My Cv</label>
@@ -224,17 +246,34 @@ class Home extends Component {
     return (
       <div>
         <div className="icon-bar">
-          <a href="https://www.instagram.com/mikbix/" className="insta">
+          <a
+            href="https://www.instagram.com/mikbix/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="insta"
+          >
             <FontAwesomeIcon icon={faCameraRetro} />
           </a>
-          <a href="https://github.com/mikifriki" className="twitter">
+          <a
+            href="https://github.com/mikifriki"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="twitter"
+          >
             <FontAwesomeIcon icon={faLaptopCode} />
           </a>
-          <a href="http://facebook.com/mihkel.liblikman" className="facebook">
+          <a
+            href="http://facebook.com/mihkel.liblikman"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="facebook"
+          >
             <FontAwesomeIcon icon={faBookOpen} />
           </a>
           <a
             href="https://www.linkedin.com/in/mihkel-liblikman-319347174/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="linkedin"
           >
             <FontAwesomeIcon icon={faBriefcase} />

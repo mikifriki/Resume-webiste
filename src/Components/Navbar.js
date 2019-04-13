@@ -9,39 +9,41 @@ import Cv from "../Pages/CV.js";
 class Nav extends Component {
   render() {
     return (
-      <HashRouter>
-        <nav>
-          <ul className="bgs">
-            <li>
-              <NavLink exact to="/Home" component={Home}>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/Data" component={Data}>
-                Repositories
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/Cv" component={Cv}>
-                CV
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/Designs" component={Designs}>
-                Designs/Photography
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
+      <div>
+        <HashRouter>
+          <nav>
+            <ul className="bgs">
+              <li>
+                <NavLink exact to="/Home" component={Home}>
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink exact to="/Data" component={Data}>
+                  Repositories
+                </NavLink>
+              </li>
+              <li>
+                <NavLink exact to="/Cv" component={Cv}>
+                  CV
+                </NavLink>
+              </li>
+              <li>
+                <NavLink exact to="/Designs" component={Designs}>
+                  Designs/Photography
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
 
-        <Switch>
-          <Route exact path="/Home" component={Home} />
-          <Route path="/Data" component={Data} />
-          <Route path="/Cv" component={Cv} />
-          <Route path="/Designs" component={Designs} />
-        </Switch>
-      </HashRouter>
+          <Switch>
+            <Route exact path="/Home" component={Home} />
+            <Route path="/Data" component={Data} />
+            <Route path="/Cv" component={Cv} />
+            <Route path="/Designs" component={Designs} />
+          </Switch>
+        </HashRouter>
+      </div>
     );
   }
 }
