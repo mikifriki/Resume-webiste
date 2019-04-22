@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "4134c88599651f5e0924",
-    "url": "/Resume-webiste/static/css/main.6412435b.chunk.css"
+    "revision": "ed8ba82764a2ebbf980d",
+    "url": "/Resume-webiste/static/css/main.1aa861a9.chunk.css"
   },
   {
-    "revision": "4134c88599651f5e0924",
-    "url": "/Resume-webiste/static/js/main.88e60cc1.chunk.js"
+    "revision": "ed8ba82764a2ebbf980d",
+    "url": "/Resume-webiste/static/js/main.f1cc0321.chunk.js"
   },
   {
     "revision": "f0356c3668f04d6ffa4d",
     "url": "/Resume-webiste/static/js/runtime~main.b9786591.js"
   },
   {
-    "revision": "e82f77415db35b8212b7",
-    "url": "/Resume-webiste/static/css/2.72bc8b34.chunk.css"
-  },
-  {
-    "revision": "e82f77415db35b8212b7",
-    "url": "/Resume-webiste/static/js/2.901882fc.chunk.js"
+    "revision": "5d664b290a380d428a59",
+    "url": "/Resume-webiste/static/js/2.e82f44cd.chunk.js"
   },
   {
     "revision": "54f9ee501594b787c89b8905694446b2",
@@ -72,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Resume-webiste/static/media/mina.569ddbc7.png"
   },
   {
-    "revision": "c52f4d60ddc44ac20ce1f33b1e749d1e",
+    "revision": "32eb7edaf86b8c7ded12990c7d8b2ce7",
     "url": "/Resume-webiste/index.html"
   }
 ];
