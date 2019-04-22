@@ -10,14 +10,17 @@ class Designs extends React.Component {
     return (
       <div>
         <div className="gal">
-        <h2 className="hd">Photography and other designs</h2>
-        <p className="hds">Here are some of my pictures and designs. Click on them to view them fullscreen</p>
-          <Gallery 
-          images={IMAGES} 
-          enableImageSelection= {false}
-          margin={10} 
-          rowHeight={300} 
-          id={"gru"}     
+          <h2 className="hd">Photography and other designs</h2>
+          <p className="hds">
+            Here are some of my pictures and designs. Click on them to view them
+            fullscreen
+          </p>
+          <Gallery
+            images={IMAGES}
+            enableImageSelection={false}
+            margin={10}
+            rowHeight={300}
+            id={"gru"}
           />
         </div>
       </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
 a.link {
     text-decoration: none;
     color: black;
@@ -12,12 +13,12 @@ a.link:hover {
     text-align: left;
 }
 
-.txt{
+.txt {
     text-align: left;
     margin-left: 2em;
 }
 
-.lnk{
+.lnk {
     text-decoration: none;
     color: grey;
     font-family: 'Noto Sans KR', sans-serif;

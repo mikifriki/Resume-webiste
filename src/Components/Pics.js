@@ -18,40 +18,35 @@ export const IMAGES = [
     thumbnail: Ukraine,
     thumbnailWidth: 4032,
     thumbnailHeight: 3024,
-    caption:
-      "Tower in Kamianets-Podilskyi."
+    caption: "Tower in Kamianets-Podilskyi."
   },
   {
     src: Tower,
     thumbnail: Tower,
     thumbnailWidth: 900,
     thumbnailHeight: 1125,
-    caption:
-      "Picture taked in Tallinn old town"
+    caption: "Picture taked in Tallinn old town"
   },
   {
     src: Curch,
     thumbnail: Curch,
     thumbnailWidth: 1024,
     thumbnailHeight: 1501,
-    caption:
-      "A curch tower in Kamianets-Podilskyi"
+    caption: "A curch tower in Kamianets-Podilskyi"
   },
   {
     src: Scholss,
     thumbnail: Scholss,
     thumbnailWidth: 72,
     thumbnailHeight: 72,
-    caption:
-      "The Schloss fall manor in Keila-Joa"
+    caption: "The Schloss fall manor in Keila-Joa"
   },
   {
     src: Stadium,
     thumbnail: Stadium,
     thumbnailWidth: 4032,
     thumbnailHeight: 3024,
-    caption:
-      "Photo taken during a music event on Tallinn song festival grounds"
+    caption: "Photo taken during a music event on Tallinn song festival grounds"
   },
   {
     src: Peng,

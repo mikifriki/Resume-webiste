@@ -33,8 +33,10 @@ class Home extends Component {
           href="https://github.com/mikifriki/Resume-webiste"
           rel="noopener noreferrer"
           target="_blank"
-        >Made 
-         </a>  with React and React-router...
+        >
+          Made
+        </a>{" "}
+        with React and React-router...
       </p>
     </div>
   );
