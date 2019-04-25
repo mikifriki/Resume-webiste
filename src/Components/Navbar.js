@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../Css/Navbar.css";
 import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
+
+// importing different components for navbar use
 import Home from "../Pages/Home.js";
 import Data from "../Pages/Data";
 import Designs from "../Pages/Designs.js";

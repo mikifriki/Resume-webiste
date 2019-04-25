@@ -29,8 +29,8 @@ export default class PersonList extends React.Component {
   render() {
     return (
       <section>
-        <div class="tbl-content">
-          <table className="headtb" cellpadding="0" cellspacing="0" border="0">
+        <div className="tbl-content">
+          <table className="headtb" cellPadding="0" cellSpacing="0" border="0">
             <tbody>
               <tr />
               <tr>
