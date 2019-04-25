@@ -1,7 +1,7 @@
 # Resume-webiste
   https://mikifriki.github.io/Resume-webiste/
   
-  This website was made with React and some other dependancies like React-Router and React-Table.
+  This website was made with React and some other dependancies like React-Router and ~~React-Table~~.
   
   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
