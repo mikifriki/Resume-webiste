@@ -317,7 +317,7 @@ class Home extends Component {
         </div>
         <div className="intro">
           <h2 className="abt">
-            <FontAwesomeIcon icon={faAddressCard} size={"xs"} /> About me
+            <FontAwesomeIcon icon={faAddressCard} size={"s"} /> About me
           </h2>
           {this.renderIntro()}
         </div>

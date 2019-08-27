@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../Css/Navbar.css";
-import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
+import { Route, NavLink, HashRouter, Switch, Redirect } from "react-router-dom";
 
 // importing different components for navbar use
 import Home from "../Pages/Home.js";
@@ -43,6 +43,7 @@ class Nav extends Component {
             <Route path="/Data" component={Data} />
             <Route path="/Cv" component={Cv} />
             <Route path="/Designs" component={Designs} />
+            <Redirect exact from="/" to="/Home" />
           </Switch>
         </HashRouter>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Css/table.css";
 import axios from "axios";
+import Moment from 'react-moment';
 
 export default class PersonList extends React.Component {
   state = {
@@ -26,13 +27,14 @@ export default class PersonList extends React.Component {
     });
   }
 
+
   render() {
     return (
       <section>
         <div className="tbl-content">
           <table className="headtb" cellPadding="0" cellSpacing="0" border="0">
             <tbody>
-              <tr />
+            
               <tr>
                 <th className="other">Projects:</th>
                 {this.state.title.map(title => (
@@ -60,7 +62,7 @@ export default class PersonList extends React.Component {
               <tr>
                 <th className="other">Date:</th>
                 {this.state.date.map(date => (
-                  <td className="others">{date.created_at}</td>
+                  <td className="others"><Moment format="YYYY/MM/DD">{date.created_at}</Moment></td>
                 ))}
               </tr>
             </tbody>
