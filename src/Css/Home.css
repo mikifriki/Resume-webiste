@@ -60,7 +60,7 @@ body {
 }
 
 .bg {
-    background: linear-Gradient(200deg, #b5fdea, #25a197, #3ff3a8, #23D5AB);
+    background: linear-Gradient(200deg, #b5fdea, #25a197, #3ff3a8, #23D5AB, #0C6CD5);
     background-size: 400% 400%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -233,6 +233,7 @@ label {
     color: white;
     margin: 2px;
     padding: 8px;
+    border-radius: 25%;
 }
 
 .twitter {
@@ -240,6 +241,7 @@ label {
     color: white;
     margin: 5px;
     padding: 8px;
+    border-radius: 25%;
 }
 
 .facebook {
@@ -247,6 +249,7 @@ label {
     color: white;
     margin: 2px;
     padding: 8px;
+    border-radius: 25%;
 }
 
 .linkedin {
@@ -254,6 +257,7 @@ label {
     color: white;
     margin: 5px;
     padding: 8px;
+    border-radius: 25%;
 }
 
 .footlb {
