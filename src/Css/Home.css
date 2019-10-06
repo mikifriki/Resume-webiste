@@ -99,26 +99,13 @@ h2 {
     padding-bottom: 50px;
 }
 
-.column,
-.column2 {
+.column{
     float: left;
     margin-left: 0%;
     text-align: left;
-}
-
-.column {
     padding-right: 5%;
 }
 
-.column2 {
-    padding-right: 5%;
-}
-
-.column3 {
-    float: left;
-    padding-left: 6%;
-    text-align: left;
-}
 
 .ul1 {
     margin-left: 1em;
@@ -146,6 +133,7 @@ h2 {
 
 .extralo {
     height: 34vh;
+    padding-top: 2%;
 }
 
 .tb {

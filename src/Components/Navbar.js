@@ -35,7 +35,13 @@ class Nav extends Component {
                   Designs/Photography
                 </NavLink>
               </li>
+              <li>
+                <a href="https://mikifriki.github.io/Forecast/" title="Wanna see the weather?">
+                  Weather<sup className="newSup">new</sup>
+                </a>
+              </li>
             </ul>
+
           </nav>
 
           <Switch>

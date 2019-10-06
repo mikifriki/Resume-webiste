@@ -37,6 +37,11 @@ nav ul li a:hover {
     color: rgba(69, 100, 180, 0.7);
 }
 
+.newSup{
+    font-size: 12px;
+    color: gold;
+}
+
 @-webkit-keyframes zoomIn {
     from {
         opacity: 0;
