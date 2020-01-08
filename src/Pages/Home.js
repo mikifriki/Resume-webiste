@@ -3,6 +3,8 @@ import "../Css/Home.css";
 import {HashRouter, NavLink, Route, Switch} from "react-router-dom";
 import Designs from "./Designs.js";
 import mina from "../Images/mina.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {
 	faAddressCard,
 	faBookOpen,
@@ -48,7 +50,7 @@ class Home extends Component {
 			myself. As a very curious person this constant self-improvement has
 			presisted for many years now. Even when I was going to school at Viljandi
 			Kutseõppekeskus to become an Electrician I still took part in extra
-			corricular activites like game development, IT hobby group and electronics
+			curricular activites like game development, IT hobby group and electronics
 			hobby group. I also spend a lot of my time trying to code new things and
 			working with electronics. Also one of the main point of why I have had
 			this interest in programming is because theres always a problem that needs
@@ -66,7 +68,7 @@ class Home extends Component {
 			and during my free time I also like doing different desings/concepts and
 			dabble with which you can check out{" "}
 			<HashRouter>
-				<NavLink exact to="./Designs" Component={Designs} className="txtint">
+				<NavLink exact to="./Designs" Component={Designs} className="intxt">
 					{" "}
 					here
 				</NavLink>
@@ -100,11 +102,13 @@ class Home extends Component {
 
 	renderExtra = () => (
 		<div className="extras">
-			<div className="column">
-				<h2>
-					<FontAwesomeIcon icon={faGraduationCap} size={"xs"}/> Education
-				</h2>
-				<ul className="eul">
+		<div className="container">
+			<div className="row">
+				<div className="col-md-4">
+					<ul className="eul">
+					<h2 className="eli">
+						<FontAwesomeIcon icon={faGraduationCap} size={"xs"}/> Education
+					</h2>
 					<li className="eli">
 						2018 - 2020 Tallinna Polütehnikum (multimeedia spetsialist esimene
 						kursus).
@@ -117,36 +121,35 @@ class Home extends Component {
 					</li>
 					<br/>
 					<li className="eli">Jun. 2018 ECDL certificate (base module).</li>
-				</ul>
-			</div>
-			<div className="column">
-				<h2>
-					<FontAwesomeIcon icon={faSchool} size={"xs"}/> Extracorricular
-					activites
-				</h2>
+					</ul>
+				</div>
+				<div className="col-md-4">
+					<ul className="eul">
+					<h2 className="eli">
+						<FontAwesomeIcon icon={faSchool} size={"xs"}/> Extracurricular
+						activites
+					</h2>
+						<li className="eli">Game development (2016)</li>
+						<br/>
+						<li className="eli">Electronics (2018)</li>
+						<br/>
+						<li className="eli">IT (2018)</li>
+					</ul>
+				</div>
+				<div className="col-md-4">
 				<ul className="eul">
-					<li className="eli">Game development (2016)</li>
-					<br/>
-					<li className="eli">Electronics (2018)</li>
-					<br/>
-					<li className="eli">IT (2018)</li>
-				</ul>
-			</div>
-
-			<div className="column">
-				<h2>
+				<h2 className="eli">
 					<FontAwesomeIcon icon={faLanguage} size={"xs"}/> Languages
 				</h2>
-				<ul className="eul">
 					<li className="eli">Estonian (Native)</li>
 					<br/>
 					<li className="eli">English – Independent user (B2)</li>
 					<br/>
 					<li className="eli">German</li>
 				</ul>
-			</div>
-			<div className="column">
-				<h2>
+				</div>
+				<div className="col-md-4">
+				<h2 className="eli">
 					<FontAwesomeIcon icon={faCode} size={"xs"}/> Technical Skills
 				</h2>
 				<ul className="eul">
@@ -169,9 +172,9 @@ class Home extends Component {
 						Experimented with Pythons Open CV to recognize digits.
 					</li>
 				</ul>
-			</div>
-			<div className="column">
-				<h2>
+				</div>
+				<div className="col-md-4">
+				<h2 className="eli">
 					<FontAwesomeIcon icon={faChalkboard} size={"xs"}/> Future
 					ventures(self-learn this year)
 				</h2>
@@ -187,9 +190,9 @@ class Home extends Component {
 					<li className="eli">Website Security.</li>
 					<br/>
 				</ul>
-			</div>
-            <div className="column">
-                <h2>
+				</div>
+				<div className="col-md-4">
+			  	<h2 className="eli">
                     <FontAwesomeIcon icon={faBriefcase} size={"xs"}/> Work experience
                 </h2>
                 <ul className="eul">
@@ -204,14 +207,16 @@ class Home extends Component {
                     </li>
                     <br/>
                 </ul>
-            </div>
+			</div>
+			</div>
+		</div>
 		</div>
 	);
 
 	renderFooter = () => (
 		<div className="footer">
-			<h3 className="email">Stay connected:</h3>
-			<a className="emaili" href="mailto:mihke.liblikman@gmail.com">
+			<h3>Stay connected:</h3>
+			<a className="email" href="mailto:mihke.liblikman@gmail.com">
 				<FontAwesomeIcon icon={faEnvelope}/> mihkel.liblikman@gmail.com
 			</a>
 			<div className="icon-bars">

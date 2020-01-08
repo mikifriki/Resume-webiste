@@ -11,12 +11,10 @@ body {
     margin: 0.1em;
     text-align: center;
     color: white;
-    padding-top: 2em;
+    padding-top: 10rem;
     padding-left: 29.4%;
     padding-right: 20%;
     text-align: left;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
 
 .post-container {
@@ -26,6 +24,12 @@ body {
     padding-left: 30%;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+.container {
+    max-width: 1600px !important;
+    padding-right: 0px !important;
+    padding-left: 4rem  !important;
 }
 
 .fc {
@@ -48,15 +52,6 @@ body {
     padding-bottom: 2%;
     padding-right: 3%;
     padding-left: 3%;
-}
-
-.extra {
-    height: 34vh;
-    float: left;
-}
-
-.einf {
-    height: 34vh;
 }
 
 .bg {
@@ -87,25 +82,8 @@ h2 {
 
 .eul,
 .eli {
-    margin: 0;
-    padding: 0 0 0 0px;
+text-align: left;
 }
-
-.eli {
-    margin-left: 50px;
-}
-
-.eul {
-    padding-bottom: 50px;
-}
-
-.column{
-    float: left;
-    margin-left: 0%;
-    text-align: left;
-    padding-right: 5%;
-}
-
 
 .ul1 {
     margin-left: 1em;
@@ -126,13 +104,7 @@ h2 {
 
 .extras {
     padding-left: 6%;
-    height: 34vh;
     padding-bottom: 0px;
-    padding-top: 2%;
-}
-
-.extralo {
-    height: 34vh;
     padding-top: 2%;
 }
 
@@ -148,28 +120,18 @@ label {
     padding-right: 5%;
 }
 
-.fut {
-    padding-top: 0%;
-    margin-top: 0%;
-}
-
-
-.lin {
-    border-bottom: black 2px solid;
-}
 
 .footer {
     clear: both;
     position: relative;
-    height: 40px;
-    margin-top: -40px;
+    margin-top: 2rem;
     background: #000;
-    padding-top: 10px;
+    padding-top: 30px;
     color: white;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 }
 
-.emaili {
+.email {
     text-decoration: none;
     color: rgb(224, 224, 224);
 }
@@ -249,16 +211,10 @@ label {
 }
 
 .footlb {
-    margin: 0%;
-    padding: 0%;
-    padding-right: 10px;
+    padding-right: 1rem;
 }
 
 .intxt {
-    color: white;
-}
-
-.txtint {
     color: white;
 }
 
@@ -266,8 +222,6 @@ label {
     opacity: 0.3;
 }
 
-
-/* Assigning animations here to html tags. */
 .name {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
@@ -292,9 +246,6 @@ body {
     animation-duration: 1s;
 }
 
-/* This is where animations start */
-
-/* Animates the background of first page */
 @-webkit-keyframes Grad {
     0% {
         background-position: 0% 50%
@@ -337,7 +288,6 @@ body {
     }
 }
 
-/* Animates the name and intro component */
 @-webkit-keyframes fadeInRight {
     from {
         opacity: 0;
@@ -366,7 +316,6 @@ body {
     }
 }
 
-/* Animates the entire body */
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
