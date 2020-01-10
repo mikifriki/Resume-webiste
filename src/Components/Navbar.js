@@ -14,7 +14,7 @@ class Nav extends Component {
       <div>
         <HashRouter>
           <nav>
-            <ul className="bgs">
+            <ul>
               <li>
                 <NavLink exact to="/Home" component={Home}>
                   Home

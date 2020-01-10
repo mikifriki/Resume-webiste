@@ -104,51 +104,28 @@ class Home extends Component {
 		<div className="extras">
 		<div className="container">
 			<div className="row">
-				<div className="col-md-4">
-					<ul className="eul">
-					<h2 className="eli">
-						<FontAwesomeIcon icon={faGraduationCap} size={"xs"}/> Education
-					</h2>
-					<li className="eli">
-						2018 - 2020 Tallinna Polütehnikum (multimeedia spetsialist esimene
-						kursus).
-					</li>
+			<div className="col-md-4">
+			  	<h2 className="eli">
+                    <FontAwesomeIcon icon={faBriefcase} size={"xs"}/> Work experience
+                </h2>
+                <ul className="eul">
+                    <li className="eli">
+                      Junior front-end developer at Net Group Ltd
+                    </li>
+                    <br/>
+                    <li className="eli">
+                        Projector installation and electrical work at Baltnet
+                        Communications.
+                    </li>
 					<br/>
 					<li className="eli">
-						{" "}
-						2015 – 2018 Viljandi Kutseõppekeskus (keskharidus ja lõpetatud
-						elektrikuna).
-					</li>
-					<br/>
-					<li className="eli">Jun. 2018 ECDL certificate (base module).</li>
-					</ul>
-				</div>
-				<div className="col-md-4">
-					<ul className="eul">
-					<h2 className="eli">
-						<FontAwesomeIcon icon={faSchool} size={"xs"}/> Extracurricular
-						activites
-					</h2>
-						<li className="eli">Game development (2016)</li>
-						<br/>
-						<li className="eli">Electronics (2018)</li>
-						<br/>
-						<li className="eli">IT (2018)</li>
-					</ul>
-				</div>
-				<div className="col-md-4">
-				<ul className="eul">
-				<h2 className="eli">
-					<FontAwesomeIcon icon={faLanguage} size={"xs"}/> Languages
-				</h2>
-					<li className="eli">Estonian (Native)</li>
-					<br/>
-					<li className="eli">English – Independent user (B2)</li>
-					<br/>
-					<li className="eli">German</li>
-				</ul>
-				</div>
-				<div className="col-md-4">
+                        Electrician apprenticeship at Viimsi SPA (Working with different
+                        electrical motors and pumps. Also General electrical work).
+                    </li>
+                    <br/>
+                </ul>
+			</div>
+			<div className="col-md-4">
 				<h2 className="eli">
 					<FontAwesomeIcon icon={faCode} size={"xs"}/> Technical Skills
 				</h2>
@@ -172,8 +149,59 @@ class Home extends Component {
 						Experimented with Pythons Open CV to recognize digits.
 					</li>
 				</ul>
-				</div>
+			</div>
+			<div className="col-md-4">
+			<h2 className="eli">
+						<FontAwesomeIcon icon={faGraduationCap} size={"xs"}/> Education
+					</h2>
+					<ul className="eul">
+				
+					<li className="eli">
+					Jun. - Jul.	2019 Net Group summeruniversity 
+					</li>
+					<br/>
+					<li className="eli">
+						{" "}
+						2015 – 2018 Viljandi Kutseõppekeskus (keskharidus ja lõpetatud
+						elektrikuna).
+					</li>
+					<br/>
+					<li className="eli">Jun. 2018 ECDL certificate (base module).</li>
+					<br/>
+					<li className="eli">
+						2018 - 2020 Tallinna Polütehnikum (multimeedia spetsialist esimene
+						kursus).
+					</li>
+					</ul>	
+			</div>
+			<div className="col-md-4">
+			<h2 className="eli">
+				<FontAwesomeIcon icon={faSchool} size={"xs"}/> Extracurricular
+				activites
+			</h2>
+			<ul className="eul">
+				<li className="eli">Game development (2016)</li>
+				<br/>
+				<li className="eli">Electronics (2018)</li>
+				<br/>
+				<li className="eli">IT (2018)</li>
+			</ul>
+			</div>
 				<div className="col-md-4">
+				<h2 className="eli">
+					<FontAwesomeIcon icon={faLanguage} size={"xs"}/> Languages
+				</h2>
+				<ul className="eul">
+
+					<li className="eli">Estonian (Native)</li>
+					<br/>
+					<li className="eli">English – Independent user (B2)</li>
+					<br/>
+					<li className="eli">German</li>
+				</ul>
+				</div>
+			
+			<div className="col-md-4">
 				<h2 className="eli">
 					<FontAwesomeIcon icon={faChalkboard} size={"xs"}/> Future
 					ventures(self-learn this year)
@@ -190,24 +218,7 @@ class Home extends Component {
 					<li className="eli">Website Security.</li>
 					<br/>
 				</ul>
-				</div>
-				<div className="col-md-4">
-			  	<h2 className="eli">
-                    <FontAwesomeIcon icon={faBriefcase} size={"xs"}/> Work experience
-                </h2>
-                <ul className="eul">
-                    <li className="eli">
-                        Electrician apprenticeship at Viimsi SPA (Working with different
-                        electrical motors and pumps. Also General electrical work).
-                    </li>
-                    <br/>
-                    <li className="eli">
-                        Projector installation and electrical work at Baltnet
-                        Communications.{" "}
-                    </li>
-                    <br/>
-                </ul>
-			</div>
+			</div>		
 			</div>
 		</div>
 		</div>
@@ -308,11 +319,10 @@ class Home extends Component {
 					</a>
 				</div>
 				<div className="bg">
-					<div className="cnt">
-						<img className="fc" src={mina} alt="imgage0"/>
-						<h1 className="name">Mihkel Liblikman</h1>
-						<div className="post-container">{this.renderPost()}</div>
-					</div>
+						<h1 className="name">
+							Mihkel Liblikman
+							<div className="post-container">{this.renderPost()}</div>
+						</h1>
 					<br/>
 				</div>
 				<div className="intro">
