@@ -5,7 +5,7 @@ import Moment from 'react-moment';
 
 export default class PersonList extends React.Component {
   state = {
-    title: [],
+    githubInfo: [],
     description: [],
     language: [],
     homepage: [],
@@ -14,19 +14,11 @@ export default class PersonList extends React.Component {
 
   componentDidMount() {
     axios.get(`https://api.github.com/users/mikifriki/repos`).then(rest => {
-      const title = rest.data;
-      const description = rest.data;
-      const language = rest.data;
-      const homepage = rest.data;
-      const date = rest.data;
-      this.setState({ title });
-      this.setState({ description });
-      this.setState({ language });
-      this.setState({ homepage });
-      this.setState({ date });
+      const githubInfo = rest.data;
+      this.setState({githubInfo});
+      console.table(githubInfo)
     });
   }
-
 
   render() {
     return (
@@ -34,35 +26,34 @@ export default class PersonList extends React.Component {
         <div className="tbl-content">
           <table className="headtb" cellPadding="0" cellSpacing="0" border="0">
             <tbody>
-            
               <tr>
                 <th className="other">Projects:</th>
-                {this.state.title.map(title => (
-                  <td className="others">{title.name}</td>
+                {this.state.githubInfo.map(githubInfo => (
+                  <td className="others">{githubInfo.name}</td>
                 ))}
               </tr>
               <tr>
                 <th className="other">Description:</th>
-                {this.state.description.map(description => (
-                  <td className="others">{description.description}</td>
+                {this.state.githubInfo.map(githubInfo => (
+                  <td className="others">{githubInfo.description}</td>
                 ))}
               </tr>
               <tr>
                 <th className="other">Language:</th>
-                {this.state.language.map(language => (
-                  <td className="others">{language.language}</td>
+                {this.state.githubInfo.map(githubInfo => (
+                  <td className="others">{githubInfo.language}</td>
                 ))}
               </tr>
               <tr>
                 <th className="other">Demo site:</th>
-                {this.state.homepage.map(homepage => (
-                  <td className="others">{homepage.homepage}</td>
+                {this.state.githubInfo.map(githubInfo => (
+                  <td className="others"><a href={githubInfo.homepage}>{githubInfo.homepage}</a></td>
                 ))}
               </tr>
               <tr>
                 <th className="other">Date:</th>
-                {this.state.date.map(date => (
-                  <td className="others"><Moment format="YYYY/MM/DD">{date.created_at}</Moment></td>
+                {this.state.githubInfo.map(githubInfo => (
+                  <td className="others"><Moment format="YYYY/MM/DD">{githubInfo.created_at}</Moment></td>
                 ))}
               </tr>
             </tbody>
