@@ -1,6 +1,14 @@
 @import '../Partials/fonts';
 @import '../Partials/colors';
 
+body {
+	min-width: 700px;
+	font-family: $primary-font !important;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+}
+
 
 .tbl-content {
     overflow-x: auto;
