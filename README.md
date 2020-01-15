@@ -1,5 +1,5 @@
 # Resume-webiste
-  https://mikifriki.github.io/Resume-webiste/
+  https://miku.risk.ee
   
   This website was made with React and some other dependancies like React-Router and ~~React-Table~~.
   
