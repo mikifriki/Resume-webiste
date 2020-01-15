@@ -1,0 +1,19 @@
+@import '../Partials/fonts';
+
+.head, .txt {
+	font-family: $primary-font;
+	text-align: left;
+
+	&.txt {
+		margin-left: 2em;
+    }
+    
+	.link {
+		color: grey;
+	}
+}
+
+.table {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}

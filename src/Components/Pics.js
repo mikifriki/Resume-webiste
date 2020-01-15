@@ -1,5 +1,4 @@
 /* Importing pictures here instead to save space in Desings.js file where its imported */
-import "../Css/Design.css";
 import Peng from "../Images/Peng.png";
 import Pengs from "../Images/Pengs.jpg";
 import Plak from "../Images/Plak.png";

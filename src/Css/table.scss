@@ -1,0 +1,32 @@
+@import '../Partials/fonts';
+@import '../Partials/colors';
+
+
+.tbl-content {
+    overflow-x: auto;
+    background: $color-table-primary;
+    font-family: $primary-font;
+}
+
+.other, .others {
+    border-right: 4px solid $color-table-border;
+    border-bottom: 1px solid $color-table-border;
+    border-top: 1px solid $color-table-border;
+    color: $color-black;
+    text-align: left;
+    font-weight: 400;
+}
+
+.other {
+    background: $color-white;
+    font-size: $font-size-normal;
+    text-transform: uppercase;
+}
+
+.others {
+    font-size: $font-size-table;
+
+    &:nth-child(even) {
+        background: $color-table-secondary;
+    }
+}
