@@ -20,7 +20,7 @@ import {
 	faSchool
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Cvs from '../Download/Cvs.pdf';
+import cv from '../Download/Mihkel Liblikman CV.pdf';
 
 class Home extends Component {
 	renderPost = () => (
@@ -291,7 +291,7 @@ class Home extends Component {
 				</a>
 				<label className="footlb">Linkedin</label>
 				<a
-					href={Cvs}
+					href={cv}
 					download
 					className="twitter"
 					target="_blank"

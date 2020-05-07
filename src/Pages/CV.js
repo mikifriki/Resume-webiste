@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Cvs from '../Download/Cvs.pdf';
+import cv from '../Download/Mihkel Liblikman CV.pdf';
 import '../Css/Cv.scss';
 
 class Cv extends Component {
 	render() {
 		return (
 			<div>
-				<embed src={Cvs} className="pdf" />
+				<embed src={cv} className="pdf" />
 			</div>
 		);
 	}
