@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "90c38c3d52c199b63f52",
-    "url": "/static/css/main.cfe4163f.chunk.css"
+    "revision": "0d8d95629c69e201b2a6",
+    "url": "/static/css/main.5c9fb0dd.chunk.css"
   },
   {
-    "revision": "90c38c3d52c199b63f52",
-    "url": "/static/js/main.13711395.chunk.js"
+    "revision": "0d8d95629c69e201b2a6",
+    "url": "/static/js/main.4004d794.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "6e1d06312111aa056806",
-    "url": "/static/css/2.29e914e4.chunk.css"
+    "revision": "6fe477fb1a606563f9ed",
+    "url": "/static/css/2.2f0a0219.chunk.css"
   },
   {
-    "revision": "6e1d06312111aa056806",
+    "revision": "6fe477fb1a606563f9ed",
     "url": "/static/js/2.823b0f7f.chunk.js"
   },
   {
-    "revision": "9f29096a4b0377bbc1e51cf54a175054",
-    "url": "/static/media/Cvs.9f29096a.pdf"
+    "revision": "f5cbb6c2167c579cccad8767a79144a1",
+    "url": "/static/media/Mihkel Liblikman CV.f5cbb6c2.pdf"
   },
   {
     "revision": "fc4e8713364770a53a59dbe9c1dea955",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/static/media/mina.569ddbc7.png"
   },
   {
-    "revision": "56ab37010496b5c6bcbe7b0f7b522ff9",
+    "revision": "a031f997628d717326248ce81027af46",
     "url": "/index.html"
   }
 ];
